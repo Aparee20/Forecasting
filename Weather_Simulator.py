@@ -171,5 +171,5 @@ if __name__ == "__main__":
         sys.exit
     else:
         records_gen = int(sys.argv[1])
-        radius=100000
+        radius=1000000
         generate_data(-24.61, 134.64,records_gen,radius)
